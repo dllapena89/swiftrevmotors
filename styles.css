@@ -1,0 +1,171 @@
+/* Importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Rock+Salt&display=swap');
+
+/* Resetting browser defaults */
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    background-color: #2A454B;
+    border-radius: 60%;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 2/3;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 2/2;
+    margin-top: 100px;
+}
+
+
+#hero-msg h4 {
+    color: white;
+}
+     
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: 100px; 
+}
+
+body {
+    background-color: #2A454B;
+    font-family: 'Fira Sans', 'quattrocento Sans', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+body {
+    background-color: #2A454B;
+}
+
+header {
+    background-color: #FFFFFF;
+    display: grid;
+    grid-template-columns: 150px auto;
+
+}
+
+/* Changing fonts for body and headlines */
+body {
+    font-family: 'Fira Sans', 'quattrocento Sans', sans-serif;
+}
+
+.home-title {
+    font-family: 'Fira Sans', 'quattrocento Sans', sans-serif;
+    font-size: 2em;
+}
+
+.custom-car {
+    max-width: 500px auto;
+    border: 3px solid #2A454B;
+    border-radius: 10px;
+    width: 100%;
+}
+
+
+/* Adjusting font sizes */
+
+.msg p {
+    font-size: 0.8em;
+}
+
+/* Adjusting line height */
+.msg {
+    background-color: #294861;
+    line-height: 1.5em;
+}
+
+/* Adding padding */
+#logo_link {
+    padding-top: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0E1C26;
+    text-align: right;
+    padding: 35px;
+}
+
+.icon {
+    padding-top: 10px;
+}
+
+.msg {
+    padding: 35px;
+}
+
+.msg p {
+    padding-bottom: 15px;
+}
+
+.social img {
+    padding-top: 15px;
+}
+
+/* Adding margins */
+.home-title {
+    margin-top: 10px;
+}
+
+footer {
+    margin-top: 100px;
+    padding: 25px 50px;
+    text-align: left;
+}
+
+.social {
+    text-align: right;
+}
+
+/* Adding borders, border radius, and box-sizing */
+.book,
+.join {
+    background-color: #FFFFFF;
+    color: #0E1C26;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    padding: 15px 30px;
+}
+
+
+/* Paint Job HTML */
+
+.colorshade {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.custompaint {
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
