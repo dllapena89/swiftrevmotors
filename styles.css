@@ -172,6 +172,7 @@ body{
     float: right;
     border: 3px solid #1982C4;
     border-radius: 10px;
+
 }
 
 .custom-car2 {
@@ -179,6 +180,33 @@ body{
     float: left;
     border: 3px solid #1982C4;
     border-radius: 10px;
+}
+
+                                                                        /*Customize HTML*/
+body{
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh; 
+}       
+
+.customecarpartimage {
+    max-width: 600px;
+    float: left;
+    border: 3px solid #0E1C26;
+    border-radius: 10px;
+}
+
+.customecarpart {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.customecarpartimage {
+    max-width: 300px;
+    padding: 20px;
+    text-align: center;
 }
 
 
