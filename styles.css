@@ -104,8 +104,9 @@ body {
 nav a {
     text-decoration: none;
     color: #0E1C26;
-    text-align: right;
-    padding: 35px;
+    text-align: center;
+    padding: 14px 16px;
+    float: left;
     
 }
 
@@ -237,3 +238,9 @@ body{
     text-align: center;
 }
 
+/*Search Navigation*/
+/* Right-aligned section inside the top navigation */
+
+.topnav-right {
+    float: right;
+  }
